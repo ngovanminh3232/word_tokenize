@@ -2,7 +2,7 @@ import argparse
 import os
 from os.path import abspath
 
-from util.crf import word_tokenize
+from util.crf.word_tokenize import word_tokenize
 
 parser = argparse.ArgumentParser("word_tokenize.py")
 text_group = parser.add_argument_group("The following arguments are mandatory for text option")
@@ -35,8 +35,8 @@ if __name__ == '__main__':
             os.rm(args.fout)
         except:
             pass
-        f = open(file_out, "a")
-        for text in open(file_in):
+        f = open(file_out, "a", encoding="utf-8")
+        for text in open(file_in, encoding= "utf-8"):
             text = text.strip()
             output = word_tokenize(text, format="text", model_path=model) + "\n"
             f.write(output)

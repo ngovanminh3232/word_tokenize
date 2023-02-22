@@ -152,5 +152,3 @@ report/*
 !report/*.sty
 !report/technique_report_final.pdf
 
-egs/vlsp2013_crf/logs
-
