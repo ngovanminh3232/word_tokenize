@@ -82,8 +82,10 @@ $ python word_tokenize.py \
     --model tmp/model.bin
 ```
 **Training trên underthesea v6.1.3**
+
 Issue: https://github.com/undertheseanlp/underthesea/issues/502  
 File: Underthesea_Word_Segmentation_v6_1_3.ipynb
+
 ## Trích dẫn
 
 Vui lòng trích dẫn thông tin về dự án nếu bạn sử dụng mã nguồn này
