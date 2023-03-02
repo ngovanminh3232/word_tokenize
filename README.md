@@ -84,7 +84,7 @@ $ python word_tokenize.py \
 **Training trên underthesea v6.1.3**
 
 Issue: https://github.com/undertheseanlp/underthesea/issues/502  
-File: Underthesea_Word_Segmentation_v6_1_3.ipynb
+File: [Underthesea_Word_Segmentation_v6_1_3.ipynb](https://github.com/ngovanminh3232/word_tokenize/blob/master/Underthesea_Word_Segmentation_v6_1_3.ipynb)
 
 ## Trích dẫn
 
